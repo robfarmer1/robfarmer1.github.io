@@ -1,0 +1,77 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: serif; 
+	text-align: center; /* Center-align all text */
+}
+
+h1 {
+	font-family: 'Lexend', sans-serif;
+    font-size: 39px;
+    margin-bottom: -10px;
+	color: deeppink;
+}
+
+	span {
+    transition: color 0.2s ease; /* Add a smooth transition */
+	margin-right: 1px;
+}
+
+/* Hover effect */
+span:hover {
+    color: pink;
+	font-size: 39px;
+margin-bottom: -10px;
+	margin-right: 1px;
+}
+
+
+.description {
+    font-size: 34px; /* Change the font size of .description */
+	margin-bottom: 40px;
+	font-family: 'Brush Script MT', cursive ;
+	color: green;
+}
+    
+
+
+.features {
+    list-style-type: disc;
+    margin-bottom: 20px;
+}
+
+.features li {
+    margin-bottom: 10px;
+	font-family: 'Lexend', sans-serif;
+    font-family: 'PT Mono', monospace;
+	font-size: 12px;
+}
+
+.buy-now-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: pink;
+    color: #E42D30;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.buy-now-btn:hover {
+    background-color: red;
+	color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+
