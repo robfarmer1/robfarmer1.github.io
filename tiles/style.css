@@ -1,0 +1,98 @@
+body{
+  margin:0;
+  padding:0;
+  background-color: #FFF;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+/*	background-color: #FFF;*/
+    max-width:1200px;
+  	width:100%;
+  	height:100%;
+  	display: inline-block;
+ 	text-align: left;
+/*	opacity: .25;*/
+	padding: 20px;
+	
+}
+.navbar{
+	position: sticky;
+	top: 0;
+	height: 100px;
+	width: 100%;
+	justify-content: flex-start;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: none;
+    background-color: white;
+	align-items: center;
+	padding-left: 20px;
+	opacity: .95;
+	z-index: 100;
+}
+.logo{
+	max-width: 200px;
+}
+.logoimg{
+	width: 90%;
+	padding-right: 20px;
+}
+.search{
+	max-width: 200px;
+}
+.searchimg{
+	width: 10%;
+}
+a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 20px;
+}
+a:hover{
+	color: darkcyan
+}
+
+.tile{
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+	height:400px;
+}
+.tilebg1{
+	background-image: url("img/dive.gif");
+}
+
+.tilebg2{
+	background-image: url("img/green.jpeg");
+}
+
+.tilebg3{
+	background-image: url("img/illu.jpeg");
+}
+
+.tilebg4{
+	background-image: url("img/lips.jpeg");
+}
+
+.tilebg5{
+	background-image: url("img/phone.jpeg");
+}
+
+.tilebg6{
+	background-image: url("img/insertpicturehere.jpg");
+}
+
+.whitetext{
+	color:white;
+}
+
