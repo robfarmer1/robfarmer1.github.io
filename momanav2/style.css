@@ -1,0 +1,151 @@
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+.outer{
+	text-align: center;
+}
+.page{
+	position: relative;
+	background-color: white;
+	max-width: 1200px;
+	width: 100%;
+	height: 99vh;
+	display: inline-block;
+	margin-top: 10px;
+}
+.topofpage{
+	height: 100px;
+	justify-content: flex-start;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+/*	background-color: aqua;*/
+	align-items: center;
+}
+.navbar{
+/*	background-color: aquamarine;*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: none;
+	align-items: center;
+	justify-content: flex-start;
+	flex-grow: 1;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+.nav{
+	padding-right: 10px;
+}
+.navright{
+	width: 150px;
+	margin-left: auto;
+}
+.content{
+/*	background-color: aqua;*/
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.search{
+	max-width: 200px;
+/*	background-color: chartreuse;*/
+
+}
+.searchimg{
+	width: 10%;
+	margin-left: auto;
+}
+
+.logo{
+/*	background-color: brown;*/
+	max-width: 200px;
+}
+.logoimg{
+	width: 100%;
+	padding: 20px;
+}
+.menu{
+	display: none;
+}
+.innermenu{
+	margin-top:50px;
+}
+.innermenu div{
+	padding-bottom: 20px;
+}
+
+#menu{
+	display: none;
+	width:80px;
+	cursor:pointer;
+}
+#menu img{
+	width: 40px;
+}
+#menuoverlay{
+	position:absolute;
+	top:0px;
+	background-color: white;
+	width:100%;
+	height:98vh;
+	text-align: center;
+	left:0;
+	display: none;
+}
+
+#close{
+	position: absolute;
+	top:10px;
+	right:10px;
+	font-size: 30px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 20px;
+}
+a:hover{
+	color: darkcyan
+}
+
+@media screen and (max-width: 850px){
+	
+	body{
+/*		background-color: aqua;*/
+	}
+	.page{
+		max-width: 400px;
+	}
+	#menu{
+		display:inline-block;
+	}
+
+	.navbar{
+		display: none;
+	}
+	.logo{
+		display: none;
+	}
+	.menu img{
+		width: 40px;
+		padding: 20px;	
+	}
+}
+	
+@media screen and (min-width: 800px) and (max-width: 1250px){
+	
+	body{
+/*		background-color: black;*/
+	}
+	.page{
+		max-width: 1000px;
+	}
+	
+	}
