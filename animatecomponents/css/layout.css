@@ -1,0 +1,36 @@
+body{
+  font-family: sans-serif;
+  color:black;
+}
+
+/* ARTWORK COMPONENT CSS  */
+.artworkimage{
+	font-size:12px;
+	text-align: center;
+	text-align: left;
+	max-width: 500px;
+}
+.artworkimage:hover{
+	animation-fill-mode: forwards;
+	animation-name: zoom;
+	animation-duration: .5s;
+}
+@keyframes zoom{
+	from {transform: scale(1)}
+	to {transform: scale(1.05)}
+}
+.artistname{
+	font-weight: bold;
+	font-size: 12px;
+	text-align: left;
+}
+.artworkname{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 12px;
+	text-align: left;
+}
+
+.artworkimage img{
+	width:100%;
+}
