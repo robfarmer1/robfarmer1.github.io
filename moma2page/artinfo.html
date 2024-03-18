@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Grid</title>
+  <meta name="description" content="Basic Grid">
+  <meta name="keywords" content="html, css,floats, float left, float right, clearfix, simple grid">  
+  <meta name="author" content="Intro to Web"> 
+    
+  <!-- THIS IS A LINK TO THE EXTERNAL .CSS --> 
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/layout.css">  
+</head>
+    
+
+<body>
+<div class="outer">
+			<div class="topofpage">
+			<div class="logo"><a href="index.html"><img src="img/logo.png" alt="momalogo" border= "0" class="logoimg" /></a></div>
+			<div id="menu" onClick="showmenu()"><img src="img/menu.png" alt="menu"></div>
+			<div id="menuoverlay">
+			<div id="close" onClick="hidemenu();">&times;</div>
+			<div class="innermenu">
+				<div class="menuitems">Home</div>
+				<div class="menuitems">Visit</div>
+				<div class="menuitems">What's On</div>
+				<div class="menuitems">Art</div>
+				<div class="menuitems">Store</div>
+			</div>
+		</div>
+			<div class="navbar"> 
+				<div class="nav"><a href="visit.html">Visit</a></div>
+				<div class="nav"><a href="whatson.html">What's On</a></div> 
+				<div class="nav"><a href="art.html">Art</a></div>
+				<div class="nav"><a href="store.html">Store</a></div>
+				<div class="nav navright"><a href="search.html"><img src="img/search.png" alt="search" border= "0" class="searchimg" /></a></div>
+		    </div>
+		
+		</div>
+	<div class="page">
+
+    	<div class="container">
+
+        <!-- a row of 3 equal modules --> 
+        <div class="row">
+            <div class="col-4" >
+                  <div class="artworkimage">
+					 <img src="img/smilingdog.jpeg" alt="userartwork"/>&nbsp; &nbsp; &nbsp; &nbsp;
+					 <p>
+					   <!--ARTIST NAME-->
+					   <span class= "artistname"> Molly Thomas</span>
+					   <!--ARTIST DOB-->
+					   (b. 1999)<br>
+						<!--ARTWORK NAME-->
+						 <span class= "artworkname">Smiling Dog,</span>
+						<!--ARTWORK NAME-->
+						<span>2024</span><br>
+						<!--MATERIALS-->
+						Acrylic on canvas	 
+					   </p>
+					  <a href="index_grid.html">Go Back</a>
+  					</div>
+            </div>
+			<div class="col-5" >
+                  <div class="artworkquote">
+					"I drew this image at home of my dog Sebastian"
+  					</div>
+            </div>
+           
+            
+        </div>
+
+
+        </div>
+
+        
+    </div>
+
+</div>
+
+</body>
+
+</html>
+ 

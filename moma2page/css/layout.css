@@ -1,0 +1,32 @@
+body{
+  font-family: sans-serif;
+  color:black;
+}
+
+/* ARTWORK COMPONENT CSS  */
+.artworkimage{
+	font-size:12px;
+	text-align: center;
+	text-align: left;
+	max-width: 500px;
+}
+.artistname{
+	font-weight: bold;
+	font-size: 12px;
+	text-align: left;
+}
+.artworkname{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 12px;
+	text-align: left;
+}
+
+.artworkimage img{
+	width:100%;
+}
+.artworkquote {
+	font-size: 36px;
+	text-align: left;
+	padding-left: 20px;
+}
